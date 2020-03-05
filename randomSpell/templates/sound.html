@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset=utf-8 name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's the Subject Sound Board!</title>
+    <!--link rel="stylesheet" href="{{ url_for('static', filename='css/sounds.css') }}"-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/test.css') }}">
+    <script data-name="BMC-Widget" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="btIUTRd" data-description="Support me on Buy me a coffee!" data-message="Thank you for visiting. You can now buy me a coffee!" data-color="#5F7FFF" data-position="right" data-x_margin="18" data-y_margin="18"></script>
+  </head>
+  <body>
+    <div class="switch">Dark Mode:            <span class="inner-switch">OFF</span></div>
+    <p>
+    <button class="button" onclick="playAudio('/static/sounds/Laugh.wav')" onmouseover="" >Bigwigg Laugh</button>
+    <button class="button" onclick="playAudio('/static/sounds/BuckleUp1.wav')" onmouseover="" >Buckle Up 1</button>
+    <button class="button" onclick="playAudio('/static/sounds/OhIGetIt.wav')" onmouseover="" >Oh, I Get It</button>
+    <button class="button" onclick="playAudio('/static/sounds/BigNoodz.wav')" onmouseover="" >Big Noodle</button>
+    <button class="button" onclick="playAudio('/static/sounds/Banjos.wav')" onmouseover="" >Banjos</button>
+    <button class="button" onclick="playAudio('/static/sounds/BuckleUp2.wav')" onmouseover="" >Buckle Up 2</button>
+    <button class="button" onclick="playAudio('/static/sounds/Byeeee.wav')" onmouseover="" >Byeeee</button>
+    <button class="button" onclick="playAudio('/static/sounds/Gong.wav')" onmouseover="" >Gong</button>
+    <button class="button" onclick="playAudio('/static/sounds/SongRiff.wav')" onmouseover="" >Song Riff</button>
+    <button class="button" onclick="playAudio('/static/sounds/ThisSucks.wav')" onmouseover="" >This Sucks!</button>
+    </p>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>
+
+

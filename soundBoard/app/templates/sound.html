@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset=utf-8 name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's the Subject Sound Board!</title>
+    <link rel="stylesheet" href="../static/css/details.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/sounds.css') }}">
+    <link rel="stylesheet" href="../static/css/buttons.css">
+    <link rel="stylesheet" href="../static/css/darkmode.css">
+    <!--script data-name="BMC-Widget" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="btIUTRd" data-description="Support me on Buy me a coffee!" data-message="Thank you for visiting. You can now buy me a coffee!" data-color="#5F7FFF" data-position="right" data-x_margin="18" data-y_margin="18"></script-->
+  </head>
+  <body>
+    <!-- Navigation bar -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <div class="topnav" id="myTopnav">
+    <!-- Navigate Home -->
+    <a href="/"><img src="../static/Home-32px.png" alt="Home"></a>
+    <!-- Navigate to my Projects -->
+    <a class="active" href="/projects/"><img src="../static/Folder-32px.png" alt="My Projects"></a>
+    <!-- Navigate to my Github -->
+    <a target="_blank" href="https://github.com/TheDiemer/"><img src="../static/GitHub-Mark-32px.png" alt="Visit Github"></a>
+    <!-- Navigate to Buy me a Coffee -->
+    <a target="_blank" href="https://www.buymeacoffee.com/btIUTRd"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee"></a>
+    <!-- Navigate to About -->
+    <a href="/about/"><img src="../static/info.png" alt="About Me"></a>
+    <!-- responsive topnav? -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()" style="float: right;">
+     <i class="fa fa-bars"></i>
+    </a>
+   </div>
+
+   <!-- Actual Content -->
+    <p>
+    <button class="button" onclick="playAudio('/sounds/static/sounds/Laugh.wav')" onmouseover="" >Bigwigg Laugh</button>
+    <button class="button" onclick="playAudio('/sounds/static/sounds/BuckleUp1.wav')" onmouseover="" >Buckle Up 1</button>
+    <button class="button" onclick="playAudio('/sounds/static/sounds/OhIGetIt.wav')" onmouseover="" >Oh, I Get It</button>
+    <button class="button" onclick="playAudio('/sounds/static/sounds/BigNoodz.wav')" onmouseover="" >Big Noodle</button>
+    <button class="button" onclick="playAudio('/sounds/static/sounds/Banjos.wav')" onmouseover="" >Banjos</button>
+    <button class="button" onclick="playAudio('/sounds/static/sounds/BuckleUp2.wav')" onmouseover="" >Buckle Up 2</button>
+    <button class="button" onclick="playAudio('/sounds/static/sounds/Byeeee.wav')" onmouseover="" >Byeeee</button>
+    <button class="button" onclick="playAudio('/sounds/static/sounds/Gong.wav')" onmouseover="" >Gong</button>
+    <button class="button" onclick="playAudio('/sounds/static/sounds/SongRiff.wav')" onmouseover="" >Song Riff</button>
+    <button class="button" onclick="playAudio('/sounds/static/sounds/ThisSucks.wav')" onmouseover="" >This Sucks!</button>
+    </p>
+   <!-- Dark Mode switch and scripts -->
+   <div class="switch" style="position: fixed;right: 0px; bottom: 0;"><span class="inner-switch">Dark Mode OFF</span></div>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+   <script src="../static/script.js"></script>
+   <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+   </script>
+  </body>
+</html>
+
+

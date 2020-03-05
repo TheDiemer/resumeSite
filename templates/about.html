@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Eric D. Jones</title> 
+    <meta charset=utf-8 name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/details.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/buttons.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/darkmode.css') }}">
+  </head>
+  <body>
+   <!-- Navigation bar -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <div class="topnav" id="myTopnav">
+    <!-- Navigate Home -->
+    <a href="/"><img src="{{ url_for('static', filename='Home-32px.png') }}" alt="Home"></a>
+    <!-- Navigate to my Projects -->
+    <a href="/projects/"><img src="{{ url_for('static', filename='Folder-32px.png') }}" alt="My Projects"></a>
+    <!-- Navigate to my Github -->
+    <a target="_blank" href="https://github.com/TheDiemer/"><img src="{{ url_for('static', filename='GitHub-Mark-32px.png') }}" alt="Visit Github"></a>
+    <!-- Navigate to Buy me a Coffee -->
+    <a target="_blank" href="https://www.buymeacoffee.com/btIUTRd"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee"></a>
+    <!-- Navigate to About -->
+    <a class="active" href="/about/"><img src="{{ url_for('static', filename='info.png') }}" alt="About Me"></a>
+    <!-- responsive topnav? -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()" style="float: right;">
+     <i class="fa fa-bars"></i>
+    </a>
+   </div>
+
+   <!-- Actual Content -->
+   <p>
+   I attended to the <a href="https://www.unc.edu/">University of North Carolina - Chapel Hill</a> to receive my Bachelor of Arts in Computer Science.<br>
+   While at UNC, I worked for the University's IT department for 2 years as well as developing a few basic applications/games for a few projects (feel free to peruse my <a href="/projects/">projects</a> or my <a href="https://github.com/TheDiemer/">GitHub</a> for more details on some of those).<br>
+   Upon graduation, I began working in Enterprise Technical Support for <a href="https://www.redhat.com/en">Red Hat</a>!<br>
+   <!--a href="{{ url_for('static', filename='EricDJones_Resume.docx') }}" download><button>My Resume</button></a><br-->
+   <button>My Resume</button><br>
+   <button>Email me!</button>
+   </p>
+
+   <!-- Dark Mode switch and scripts -->
+   <div class="switch" style="position: fixed;right: 0px; bottom: 0;"><span class="inner-switch">Dark Mode OFF</span></div>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+   <script src="{{ url_for('static', filename='script.js') }}"></script>
+   <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+   </script>
+  </body>
+</html>

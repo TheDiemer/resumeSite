@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Upgraded Casting</title>
+    <meta charset=utf-8 name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/details.css') }}">
+  </head>
+  <body>
+    <h1>Are you casting a(n):</h1>
+    <form action="/tisi/casting/v2/cantripO/">
+      <input type="submit" class="button" id="cantrip" value="Offensive Cantrip?"/>
+    </form>
+    <form action="/tisi/casting/v2/cantripD/">
+      <input type="submit" class="button" id="cantrip" value="Defensive Cantrip?"/>
+    </form>
+    <br>or<br>
+    <form action="/tisi/casting/v2/spellO/">
+      <input type="submit" class="button" id="spell" value="Offensive Spell?"/>
+    </form>
+    <form action="/tisi/casting/v2/spellD/">
+      <input type="submit" class="button" id="spell" value="Defensive Spell?"/>
+    </form>
+  </body>
+</html>

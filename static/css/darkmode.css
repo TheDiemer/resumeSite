@@ -1,0 +1,80 @@
+.button {
+    background: #db2c2f;
+    box-shadow: 0 0 9px gray;
+    border-radius: 50%;
+    border: 7px solid #d9a5a6;
+    color: white;
+    cursor: pointer;
+    display: table-cell,block;
+    font-family: "sans-serif";
+    font-size: 1.5em;
+    font-weight: bold;
+    height: 150px;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: top;
+    width: 150px;
+}
+small {
+    font-style: italic;
+}
+article {
+    display: flex;
+    flex-direction: column;
+}
+img {
+    max-width: 100%;
+    display: block;
+    align-self: center;
+}
+.switch {
+    align-self: flex-end;
+    margin: 0.9375rem;
+    float: right;
+}
+.inner-switch {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #555;
+    border-radius: 1.25rem;
+    width: 3.125rem;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.1875rem;
+    margin-left: 0.3125rem;
+}
+.dark,
+.dark * {
+    background-color: #333;
+    color: #e6e6e6;
+    border-color: #e6e6e6;
+    background-image: none !important;
+}
+/*
+.topnav {
+  background-color: #CCC;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #0D0D0D;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #333;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #B350AF
+  color: white;
+}
+.topnav .icon {
+  display: none;
+}
+*/
