@@ -23,9 +23,9 @@ def character():
     return render_template('character.html')
 
 
-@app.route('/zero')
-def zero():
-    return render_template('zero.html')
+@app.route('/sessions')
+def sessions():
+    return render_template('sessions.html')
 
 
 if __name__ == '__main__':
