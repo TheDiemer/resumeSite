@@ -8,23 +8,23 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/backstory/')
+@app.route('/backstory')
 def back():
     return render_template('backstory.html')
 
 
-@app.route('/setting/')
-def back():
+@app.route('/setting')
+def setting():
     return render_template('setting.html')
 
 
-@app.route('/character/')
-def back():
+@app.route('/character')
+def character():
     return render_template('character.html')
 
 
-@app.route('/zero/')
-def back():
+@app.route('/zero')
+def zero():
     return render_template('zero.html')
 
 
