@@ -28,6 +28,16 @@ def sessions():
     return render_template('sessions.html')
 
 
+@app.route('/noodles')
+def noodles():
+    return render_template('noodles.html')
+
+
+@app.route('/hidden')
+def hidden():
+    return render_template('hidden.html')
+
+
 if __name__ == '__main__':
     app.run(debug=True)
   #app.run(host='tatl.ddnsfree.com',debug=True)
