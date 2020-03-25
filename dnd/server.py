@@ -38,6 +38,10 @@ def hidden():
     return render_template('hidden.html')
 
 
+@app.route('/images')
+def images():
+    return render_template('images.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
   #app.run(host='tatl.ddnsfree.com',debug=True)

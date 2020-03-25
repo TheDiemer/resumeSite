@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Eric's Campaign Images!</title>
+        <meta charset=utf-8 name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/details.css') }}">
+    </head>
+    <body>
+	<img src="{{ url_for('static', filename='Village.jpg') }}" alt="Village" width="50%" height="auto"><br>
+	<img src="{{ url_for('static', filename='Field+Mountain.png') }}" alt="Moonshadow" width="50%" height="auto"><br>
+	<img src="{{ url_for('static', filename='Castle.jpg') }}" alt="Castle" width="50%" height="auto"><br>
+	<img src="{{ url_for('static', filename='courtyard.jpg') }}" alt="courtyard" width="50%" height="auto"><br>
+	<img src="{{ url_for('static', filename='bedroom.jpg') }}" alt="bedroom" width="50%" height="auto"><br>
+	<img src="{{ url_for('static', filename='offices.jpg') }}" alt="offices" width="50%" height="auto"><br>
+	<button class="button" id="home" onclick="window.location.href = '/dnd/'" onmouseover="" style="cursor: pointer;">Home</button>
+    </body>
+</html>
