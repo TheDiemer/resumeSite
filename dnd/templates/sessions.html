@@ -7,14 +7,14 @@
     </head>
     <body>
         <h1>This is information and notes for Eric's Campaign!</h1>
-	<h1>Sessions</h1>
+	<h1><span id="top">Sessions</span></h1>
 	<button href="#zero" class="button" id ="sessions" onclick="window.location.href = '#zero'">0</button>
 	<button href="#one" class="button" id ="sessions" onclick="window.location.href = '#one'">1</button>
 
 	<h2><span id="zero">Session Zero</span></h2>
         <p>Presented <a href='/dnd/backstory'>the backstory</a>, the <a href='/dnd/character'>character creation details</a>, and some of the <a href='/dnd/setting'>setting details</a>!</p>
 	<br>
-	<br>
+	<hr>
 	<br>
 	<h2><span id="one">Session One</span></h2>
 	<p>
@@ -68,7 +68,23 @@
 	<h3>Finally moving up to the second floor</h3>
 	<p>
 	    As our the head of our train up the stairs finishes climbing the stairs, Wrench hears a noise but is unable to note what made it or even really where it came from...<br>
+	    The party rounds the dark corner and see 4 doors...each with 2 holes in them, around eye level<br>
+	    Entering each of these doors one at a time, the team found several bedrooms that, like downstairs, appeared as if they were once very nice. Two of these four rooms also included two portals!!! Much like the one in the basement, but a yellowish glow, instead of blue.<br>
+	    In these portals, our adventurers found two different things:<br>
+	    <img src="{{ url_for('static', filename='bedroom.jpg') }}" alt="bedroom" width="50%" height="auto"><br>
+	    <ol>
+	        <li>A battle with 5 flying ice creatures</li>
+		<li>A new friend!</li>
+	    </ol>
+	    In the second of these portals, a tiefling stood with their back to the portal, almost as if they had just entered it.<br>
+	    Akta, the tiefling, agreed to join the party as her own had been murdered shortly after entering the castle!<br>
+	    The, now larger, party swung around to the other side of the floor to find the same pattern of four doors with two wholes each, leading into beadrooms, though only a single portal to be found this time.<br>
+	    After dealing with the single muddy creature in this portal the group decided to rest in this bedroom briefly to catch their breath.
 	</p>
+	<br>
+	<hr>
+	<br>
 	<button class="button" id="home" onclick="window.location.href = '/dnd/'" onmouseover="" style="cursor: pointer;">Home</button>
+	<button class="button" id="home" style="background-color: rgb(59, 0, 131)" onclick="window.location.href = '#top'" onmouseover="" style="cursor: pointer;">Top</button>
     </body>
 </html>
