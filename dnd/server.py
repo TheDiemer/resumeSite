@@ -28,6 +28,11 @@ def sessions():
     return render_template('sessions.html')
 
 
+@app.route('/story')
+def story():
+    return render_template('story.html')
+
+
 @app.route('/noodles')
 def noodles():
     return render_template('noodles.html')
