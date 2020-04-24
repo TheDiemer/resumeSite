@@ -38,6 +38,10 @@ def noodles():
     return render_template('noodles.html')
 
 
+@app.route('/test')
+def test():
+    return render_template('test.html')
+
 @app.route('/hidden')
 def hidden():
     return render_template('hidden.html')
