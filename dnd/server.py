@@ -51,6 +51,9 @@ def hidden():
 def images():
     return render_template('images.html')
 
+@app.route('/party')
+def party():
+    return render_template('party.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
-  #app.run(host='tatl.ddnsfree.com',debug=True)
