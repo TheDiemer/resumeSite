@@ -25,7 +25,7 @@ def index():
 #def secondEdition():
 #    return render_template('castingv2.html')
 
-@app.route('/casting/v3')
+@app.route('/casting/v3/')
 def thirdEdition():
     return render_template('castingv3.html')
 
