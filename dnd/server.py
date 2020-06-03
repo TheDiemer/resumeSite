@@ -55,5 +55,10 @@ def images():
 def party():
     return render_template('party.html')
 
+@app.route('/rings')
+def rings():
+    return render_template('rings.html')
+
+
 if __name__ == '__main__':
     app.run(debug=True)
