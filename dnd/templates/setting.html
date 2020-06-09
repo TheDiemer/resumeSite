@@ -18,7 +18,7 @@
                 <li>A large city with satellite villages surrounding it</li>
                 <li>Centered near the River Chalcedon and the nearby Mountain Range near where these meet the Sea</li>
             </ul>
-            <img src="{{ url_for('static', filename='Tropolis.jpg') }}" alt="Map of Tropolis" width="15%" height="auto">
+            <img src="{{ url_for('static', filename='Tropolis.jpg') }}" alt="Map of Tropolis" width="15%" height="auto" href="{{ url_for('static', filename='Tropolis.jpg') }}">
             <li>Moonshadow Field</li>
             <ul>
                 <li>Common grazing field for Hose</li>
@@ -51,8 +51,8 @@
                 <li>Tropolis' Police Academy is housed here</li>
                 <li>Recently had a problem with a WereLion.</li>
             </ul>
-            <img src="{{ url_for('static', filename='Greater_Tropolis_Map.jpg') }}" alt="Map of the Tropolis area" width="25%" height="auto">
-            <img src="{{ url_for('static', filename='Greater_Tropolis_Legend.jpg') }}" alt="Legend for the Map of the Tropolis area" width="25%" height="auto">
+            <img src="{{ url_for('static', filename='Greater_Tropolis_Map.jpg') }}" alt="Map of the Tropolis area" width="25%" height="auto" href="{{ url_for('static', filename='Greater_Tropolis_Map.jpg') }}">
+            <img src="{{ url_for('static', filename='Greater_Tropolis_Legend.jpg') }}" alt="Legend for the Map of the Tropolis area" width="25%" height="auto" href="{{ url_for('static', filename='Greater_Tropolis_Legend.jpg') }}">
         </ul>
 	<button class="button" id="home" onclick="window.location.href = '/dnd/'" onmouseover="" style="cursor: pointer;">Home</button>
     </body>
