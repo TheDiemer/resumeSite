@@ -19,8 +19,8 @@
                 <li>Centered near the River Chalcedon and the nearby Mountain Range near where these meet the Sea</li>
             </ul>
             <img src="{{ url_for('static', filename='Tropolis.jpg') }}" alt="Map of Tropolis" width="15%" height="auto" href="{{ url_for('static', filename='Tropolis.jpg') }}">
-            <a>Legend</a>
-            <table>
+            <a style="display: inline;">Legend</a>
+            <table style="display: inline;">
                 <tr>
                     <th>Identifier</th>
                     <th>Name</th>
@@ -96,7 +96,7 @@
             </ul>
             <img src="{{ url_for('static', filename='Greater_Tropolis_Map.jpg') }}" alt="Map of the Tropolis area" width="25%" height="auto" href="{{ url_for('static', filename='Greater_Tropolis_Map.jpg') }}">
             <a>Legend</a>
-            <table>
+            <table style="display: inline;">
                 <tr>
                     <th>Identifier</th>
                     <th>Name</th>
@@ -169,7 +169,7 @@
                 </tr>
             </table>
             <a>Travel Times</a>
-            <table>
+            <table style="display: inline;">
                 <tr>
                     <th>Starting Place</th>
                     <th>Ending Place</th>
@@ -236,7 +236,6 @@
                     <td>4 Days</td>
                 </tr>
             </table>
-            <img src="{{ url_for('static', filename='Greater_Tropolis_Legend.jpg') }}" alt="Legend for the Map of the Tropolis area" width="25%" height="auto" href="{{ url_for('static', filename='Greater_Tropolis_Legend.jpg') }}">
         </ul>
 	<button class="button" id="home" onclick="window.location.href = '/dnd/'" onmouseover="" style="cursor: pointer;">Home</button>
     </body>
