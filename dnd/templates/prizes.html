@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Eric's Party!</title>
+        <meta charset=utf-8 name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/details.css') }}">
+    </head>
+    <body>
+        <h1>This is information and notes for Eric's Campaign!</h1>
+    <h1><span id="top">Rewards!</span></h1>
+    <button href="#first" class="button" id="sessions" onclick="window.location.href = '#first'">First</button>
+    <button href="#second" class="button" id="sessions" onclick="window.location.href = '#second'">First</button>
+
+    
+    <h3><span id="first">First</span></h3>
+    <a href="{{ url_for('static', filename='Band_of_Shocking_Grasp.png') }}"     alt="Band_of_Shocking_Grasp">Band of Shocking Grasp</a>
+    <br><a href="{{ url_for('static', filename='Glove_of_Appreciation.png') }}"  alt="Glove_of_Appreciation">Glove of Appreciation</a>
+    <br><a href="{{ url_for('static', filename='Ring_of_Feies_Favor.png') }}"    alt="Ring_of_feies_Favor">Ring of Feies Favor</a>
+    <br><a href="{{ url_for('static', filename='Ring_of_Finger_guns.png') }}"    alt="Ring_of_Finger_guns">Ring of Finger Guns</a>
+    <br><a href="{{ url_for('static', filename='Ring_of_Frost.png') }}"          alt="Ring_of_Frost">Ring of Frost</a>
+    <br><a href="{{ url_for('static', filename='Ring_of_the_Mimic.png') }}"      alt="Ring_of_the_Mimic">Ring of the Mimic</a>
+    <br><a href="{{ url_for('static', filename='Witchs_Ring.png') }}"            alt="Witchs_Ring">Witchs Ring</a>
+    <!--img src="{{ url_for('static', filename='Band_of_Shocking_Grasp.png') }}" alt="Band_of_Shocking_Grasp" width="25%" height="auto">
+    <img src="{{ url_for('static', filename='Glove_of_Appreciation.png') }}"  alt="Glove_of_Appreciation" width="25%" height="auto">
+    <img src="{{ url_for('static', filename='Ring_of_Feies_Favor.png') }}"    alt="Ring_of_feies_Favor" width="25%" height="auto">
+    <img src="{{ url_for('static', filename='Ring_of_Finger_guns.png') }}"    alt="Ring_of_Finger_guns" width="25%" height="auto">
+    <img src="{{ url_for('static', filename='Ring_of_Frost.png') }}"          alt="Ring_of_Frost" width="25%" height="auto">
+    <img src="{{ url_for('static', filename='Ring_of_the_Mimic.png') }}"      alt="Ring_of_the_Mimic" width="25%" height="auto">
+    <img src="{{ url_for('static', filename='Witchs_Ring.png') }}"            alt="Witchs_Ring" width="25%" height="auto"-->
+    <br><br>
+    <h3><span id="second">Second</span></h3>
+    <a href="{{ url_for('static', filename='Amulet_of_Ichor.jpg') }}"          alt="Amulet_of_Ichor">Amulet of Ichor</a><br>
+    <a href="https://www.dndbeyond.com/magic-items/immovable-rod"              alt="Immovable_Rod">Immovable Rod</a><br>
+    <a href="https://www.dndbeyond.com/magic-items/robe-of-useful-items"       alt="Robe of Useful Items">Robe of Useful Items</a><br>
+    <table>
+      <tr><th>Patch</th><th>Count</th></tr>
+      <tr><td><a href="https://www.dndbeyond.com/equipment/dagger">Dagger</a></td><td>2</td></tr>
+      <tr><td><a href="https://www.dndbeyond.com/equipment/lantern-bullseye">Filled and lit Bullseye Lantern</a></td><td>2</td></tr>
+      <tr><td><a href="https://www.dndbeyond.com/equipment/mirror-steel">Steel Mirror</a></td><td>2</td></tr>
+      <tr><td><a href="https://www.dndbeyond.com/equipment/pole-10-foot">10 foot Pole</a></td><td>2</td></tr>
+      <tr><td><a href="https://www.dndbeyond.com/equipment/rope-hempen-50-feet">50 foot Hempen Rope</a></td><td>2</td></tr>
+      <tr><td><a href="https://www.dndbeyond.com/equipment/sack">Sack</a></td><td>2</td></tr>
+      <tr><td>1 Silver Coffer (1 foot long, 6 inches wide and deep)</td><td>1</td></tr>
+      <tr><td>1 Window (2' x 4') to be placed on flat vertical surface within reach</td><td>1</td></tr>
+      <tr><td>1 Iron Door (up to 10' x 10', barred on 1 side of your choosing). Place in opening of your choice</td><td>1</td></tr>
+      <tr><td><a href="https://www.dndbeyond.com/equipment/ladder-10-foot">1 Wooden Ladder</a></td><td>1</td></tr>
+      <tr><td>1 Pit (10' cube), to be placed on ground within 10 feet of you</td><td></td></tr>
+    </table>
+    <a href="https://ygdren.fandom.com/wiki/Ring_of_the_Grammarian"            alt="Ring_of_the_Grammarian">Ring of the Grammarian</a><br>
+    <a href="https://www.dndbeyond.com/magic-items/staff-of-withering"         alt="Staff_of_Withering">Staff of Withering</a><br>
+    <a href="https://www.dndbeyond.com/magic-items/sword-of-life-stealing"     alt="Sword_of_Life_Stealing">Shortsword of Life Stealing</a><br>
+    <a href="https://www.dndbeyond.com/magic-items/mace-of-terror"             alt="Mace_of_Terror">Mace of Terror</a><br>
+    <a href="https://www.dndbeyond.com/magic-items/amulet-of-health"           alt="Amulet of Health">Amulet of Health</a><br>
+    <a href="https://www.dndbeyond.com/magic-items/helm-of-teleportation"      alt="Helm_of_Teleportation">Helm of Teleportation</a><br>
+    <a href="https://www.dndbeyond.com/magic-items/staff-of-charming"          alt="Staff_of_Charming">Staff of Charming</a><br>
+    <a href="https://www.dndbeyond.com/magic-items/elven-chain"                alt="Elven_Chain">Elven Chain</a><br>
+    <a href="https://5e.tools/items/instrument-of-the-bards-cli-lyre-dmg.html" alt="Instruments_of_the_bards_Cli_Lyre">Instrument of the Bards: Cli Lyre</a><br>
+    <a href="{{ url_for('static', filename='Sidras_Swearing_Sword.png') }}"    alt="Sidras_Swearing_Sword">Sidra's Swearing Sword</a><br>
+    <a href="{{ url_for('static', filename='Assassins_Guild_Ring.png') }}"     alt="Assassins_Guild_Ring">Assassin's Guild Ring</a><br>
+
+    <hr>
+    <button class="button" id="home" onclick="window.location.href = '/dnd/'" onmouseover="" style="cursor: pointer;">Home</button>
+	<button class="button" id="home" style="background-color: rgb(59, 0, 131)" onclick="window.location.href = '#top'" onmouseover="" style="cursor: pointer;">Top</button>
+    </body>
+</html>

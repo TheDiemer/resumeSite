@@ -55,9 +55,9 @@ def images():
 def party():
     return render_template('party.html')
 
-@app.route('/rings')
+@app.route('/prizes')
 def rings():
-    return render_template('rings.html')
+    return render_template('prizes.html')
 
 
 if __name__ == '__main__':
