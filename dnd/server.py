@@ -8,6 +8,11 @@ def index():
     return render_template('index.html')
 
 
+@app.route('/last')
+def last():
+    return render_template('recap.html')
+
+
 @app.route('/backstory')
 def back():
     return render_template('backstory.html')
