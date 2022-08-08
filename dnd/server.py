@@ -64,6 +64,9 @@ def party():
 def rings():
     return render_template('prizes.html')
 
+@app.route('/DM')
+def dm():
+    return render_template('DM.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
