@@ -7,9 +7,94 @@
     </head>
     <body>
         <h1>I use this page to test things/share certain images for my campaign:</h1>
-    <img src="{{ url_for('static', filename='Udgred_Founding_HQ.png') }}" alt="Udgred_Founding_HQ" width="auto" height="auto" href="{{ url_for('static', filename='Udgred_Founding_HQ.png') }}">
-    <hr>
-    <button class="button" id="home" onclick="window.location.href = '/dnd/'" onmouseover="" style="cursor: pointer;">Home</button>
-	<button class="button" id="home" style="background-color: rgb(59, 0, 131)" onclick="window.location.href = '#top'" onmouseover="" style="cursor: pointer;">Top</button>
+        <p>
+            <table>
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Fight*/Spy | Limited Danger</th>
+                    <th>Kill | Easy & Fight*/Spy | Medium Danger</th>
+                    <th>Kill | Medium & Fight*/Spy | High Danger</th>
+                    <th>Kill | Hard</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1 Ring</td>
+                    <td>25 gp/day</td>
+                    <td>100 gp/day</td>
+                    <td>225 gp/day</td>
+                    <td>1,000 gp/day</td>
+                  </tr>
+                  <tr>
+                    <td>2 Rings</td>
+                    <td>50 gp/day</td>
+                    <td>200 gp/day</td>
+                    <td>450 gp/day</td>
+                    <td>1,100 gp/day</td>
+                  </tr>
+                  <tr>
+                    <td>3 Rings</td>
+                    <td>75 gp/day</td>
+                    <td>300 gp/day</td>
+                    <td>675 gp/day</td>
+                    <td>1,200 gp/day</td>
+                  </tr>
+                  <tr>
+                    <td>4 Rings</td>
+                    <td>100 gp/day</td>
+                    <td>400 gp/day</td>
+                    <td>900 gp/day</td>
+                    <td>1,600 gp/day</td>
+                  </tr>
+                  <tr>
+                    <td>Hand</td>
+                    <td>125 gp/day</td>
+                    <td>500 gp/day</td>
+                    <td>1,125 gp/day</td>
+                    <td>2,000 gp/day</td>
+                  </tr>
+                  <tr>
+                    <td>Hand + 1 Ring</td>
+                    <td>150 gp/day</td>
+                    <td>600 gp/day</td>
+                    <td>1,350 gp/day</td>
+                    <td>2,400 gp/day</td>
+                  </tr>
+                  <tr>
+                    <td>Hand + 2 Rings</td>
+                    <td>175 gp/day</td>
+                    <td>700 gp/day</td>
+                    <td>1,575 gp/day</td>
+                    <td>2,800 gp/day</td>
+                  </tr>
+                  <tr>
+                    <td>Hand + 3 Rings</td>
+                    <td>200 gp/day</td>
+                    <td>800 gp/day</td>
+                    <td>1,800 gp/day</td>
+                    <td>3,200 gp/day</td>
+                  </tr>
+                  <tr>
+                    <td>Hand + 4 Rings</td>
+                    <td>225 gp/day</td>
+                    <td>900 gp/day</td>
+                    <td>2,025 gp/day</td>
+                    <td>3,600 gp/day</td>
+                  </tr>
+                  <tr>
+                    <td>Grand Master</td>
+                    <td>250 gp/day</td>
+                    <td>1,000 gp/day</td>
+                    <td>2,250 gp/day</td>
+                    <td>4,000 gp/day</td>
+                  </tr>
+                </tbody>
+                </table>
+        </p>
+        <img src="{{ url_for('static', filename='Udgred_Founding_HQ.png') }}" alt="Udgred_Founding_HQ" width="auto" height="auto" href="{{ url_for('static', filename='Udgred_Founding_HQ.png') }}">
+        <hr>
+        <button class="button" id="home" onclick="window.location.href = '/dnd/'" onmouseover="" style="cursor: pointer;">Home</button>
+	    <button class="button" id="home" style="background-color: rgb(59, 0, 131)" onclick="window.location.href = '#top'" onmouseover="" style="cursor: pointer;">Top</button>
     </body>
 </html>
