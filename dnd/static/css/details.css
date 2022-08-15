@@ -89,6 +89,9 @@ form {
 #important {
   background-color: rgb(146, 212, 0);
 }
+#letter {
+  background-color: rgb(226, 222, 208);
+}
 table, tr {
   border: 1px solid black;
   border-collapse: collapse;
