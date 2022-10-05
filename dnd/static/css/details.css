@@ -93,7 +93,10 @@ form {
   background-color: rgb(166, 147, 130);
 }
 #quotes {
-  background-color: rgb(226, 222, 208);
+  background-color: rgb(27, 234, 154);
+}
+#prophecy {
+  background-color: rgb(232, 34, 227);
 }
 table, tr {
   border: 1px solid black;
