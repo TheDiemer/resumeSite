@@ -1,72 +1,78 @@
 #!/usr/bin/python3
 from flask import Flask, render_template, request, url_for, Markup
+
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route("/")
 def index():
-    return render_template('index.html')
+    return render_template("index.html")
 
 
-@app.route('/last')
+@app.route("/last")
 def last():
-    return render_template('recap.html')
+    return render_template("recap.html")
 
 
-@app.route('/backstory')
+@app.route("/backstory")
 def back():
-    return render_template('backstory.html')
+    return render_template("backstory.html")
 
 
-@app.route('/setting')
+@app.route("/setting")
 def setting():
-    return render_template('setting.html')
+    return render_template("setting.html")
 
 
-@app.route('/character')
+@app.route("/character")
 def character():
-    return render_template('character.html')
+    return render_template("character.html")
 
 
-@app.route('/sessions')
+@app.route("/sessions")
 def sessions():
-    return render_template('sessions.html')
+    return render_template("sessions.html")
 
 
-@app.route('/story')
+@app.route("/story")
 def story():
-    return render_template('story.html')
+    return render_template("story.html")
 
 
-@app.route('/noodles')
+@app.route("/noodles")
 def noodles():
-    return render_template('noodles.html')
+    return render_template("noodles.html")
 
 
-@app.route('/test')
+@app.route("/test")
 def test():
-    return render_template('test.html')
+    return render_template("test.html")
 
-@app.route('/hidden')
+
+@app.route("/hidden")
 def hidden():
-    return render_template('hidden.html')
+    return render_template("hidden.html")
 
 
-@app.route('/images')
+@app.route("/images")
 def images():
-    return render_template('images.html')
+    return render_template("images.html")
 
-@app.route('/party')
+
+@app.route("/party")
 def party():
-    return render_template('party.html')
+    return render_template("party.html")
 
-@app.route('/prizes')
+
+@app.route("/prizes")
 def rings():
-    return render_template('prizes.html')
+    return render_template("prizes.html")
 
-@app.route('/DM')
+
+@app.route("/DM")
 def dm():
-    return render_template('DM.html')
+    return render_template("DM.html")
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     app.run(debug=True)
