@@ -69,6 +69,11 @@ def rings():
     return render_template("prizes.html")
 
 
+@app.route("/Lyre")
+def lyre():
+    return render_template("Legendary_Lyre.html")
+
+
 @app.route("/DM")
 def dm():
     return render_template("DM.html")
